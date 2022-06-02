@@ -1,14 +1,12 @@
-## If ซ้อน If
+## Pass
 
 age = int(input("ป้อนอายุของคุณ :"))
 
 if age<=15:
     if age==15:
-        print("ม.3")
+        print("ต้องไปทำบัตรประชาชน")
     elif age==14:
-        print("ม.2")
-    elif age==13:
-        print("ม.1")
+        pass
     else:
         print("ประถมศึกษา")
 else: 
