@@ -1,17 +1,17 @@
-## If ซ้อน If
+# If ซ้อน If
 
 age = int(input("ป้อนอายุของคุณ :"))
 
-if age<=15:
-    if age==15:
+if age <= 15:
+    if age == 15:
         print("ม.3")
-    elif age==14:
+    elif age == 14:
         print("ม.2")
-    elif age==13:
+    elif age == 13:
         print("ม.1")
     else:
         print("ประถมศึกษา")
-else: 
+else:
     print("ม.ปลาย")
 
 print("จบโปรแกรม")

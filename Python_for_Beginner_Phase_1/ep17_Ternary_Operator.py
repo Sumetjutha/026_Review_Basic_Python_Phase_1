@@ -1,7 +1,7 @@
 # Ternary Operator
 # ลดรูปคำสั่ง
 
-age=int(input("ป้อนอายุของคุณ :"))
+age = int(input("ป้อนอายุของคุณ :"))
 
 # if age>=15:
 #     print("วัยรุ่น")
@@ -12,5 +12,4 @@ age=int(input("ป้อนอายุของคุณ :"))
 
 # Ternary Operator
 # "เงื่อนไขเป็นจริง" if expression else "เงื่อนไขอื่นๆ"
-print("วัยรุ่น") if age>15 else print("วัยเด็ก")
-
+print("วัยรุ่น") if age > 15 else print("วัยเด็ก")
